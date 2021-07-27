@@ -1,0 +1,135 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* Style the header */
+.header {
+  padding: 0% 50%;
+  background:#ffffffff;
+  color:black;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 102px;
+}
+
+/* Style the header */
+.header2 {
+  padding: 0px 30%;
+  background:#ffffffff
+;
+  color:black;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 102px;
+}
+
+/* Image 1 */
+.image1 {
+  position: fixed;
+  left: 50px;
+  top: 200px;
+}
+
+  /* Image 2 */
+.image2 {
+  position: fixed;
+  left: 36%;
+  top: 200px;
+}
+
+  /* Image 3 */
+.image3 {
+  position: fixed;
+  left: 70%;
+  top: 200px;
+}
+
+  /* Video 1 */
+.video1 {
+  position: fixed;
+  left: 25%;
+  top: 900px;
+}
+
+/* button1 */
+.button1 {
+   position: fixed;
+  left: 3%;
+  top: 670px;
+  background-color:transparent;
+  border: none;
+  color: white;
+  padding: 30px 195px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.button1:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/* button2 */
+.button2 {
+   position: fixed;
+  left: 36%;
+  top: 670px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  padding: 30px 198px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.button2:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/* button3 */
+.button3 {
+   position: fixed;
+  left: 70%;
+  top: 670px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  padding: 30px 198px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  
+}
+
+.button3:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
