@@ -1,5 +1,5 @@
 body {
-
+  height: 2000px;
 }
 
 /* header */
@@ -8,10 +8,50 @@ body {
   position: sticky;
   top: 0;
 }
+h1 {
+  position: absolute;
+  left: 673px;
+  top: 0px;
+  font-family: 'Courier New', monospace;
+}
+
+h2 {
+  position: absolute;
+  left: 770px;
+  top: 40px;
+  font-family: 'Courier New', monospace;
+}
 
 
+/* Image 1 */
+.image1 {
+ position: fixed;
+ left: 50px;
+ top: 200px;
+}
+ 
+ /* Image 2 */
+.image2 {
+ position: fixed;
+ left: 37%;
+ top: 200px;
+}
+ 
+ /* Image 3 */
+.image3 {
+ position: fixed;
+ left: 70%;
+ top: 200px;
+}
 
-/* Images */
+ /* Video 1 */
+.video1 {
+ position: fixed;
+ left: 25%;
+ top: 900px;
+}
+
+ 
 
 
 
